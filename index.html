@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>                    
+    <title>SHOPPERS STOP - START SOMETHING NEW</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Images/browser_logo.ico" />
+
+</head>
+<body>
+ 
+  <div class="parent">
+       
+    <div class="firstnav">
+      
+     
+      <div class="logo">
+      <a href="https://www.shoppersstop.com"><img src="./Images/newLogo.svg" alt="" id="headerlogo"></a>
+      </div>
+    
+      <div class="endnav">
+        <div class="search">
+          <input type="search" placeholder="Search Products">
+          <i class="uil uil-search"></i>
+          </div>
+
+          <div class="socialicon">
+            <a href="https://www.youtube.com/channel/UCBlvS2pIpT9DO6JmvqLojiw" class="uil uil-youtube youtube"></a>
+            <a href="https://www.instagram.com/shoppers_stop/?hl=en" class="uil uil-instagram-alt insta"></a>
+            <a href="https://twitter.com/shoppersstop?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="uil uil-twitter twitter"></a>
+          </div>
+      </div>
+
+     </div>
+    
+    
+    <div class="navleft">
+      <ul>
+        <li class="item"><a href="#">CATEGORIES</a></li>
+        <li class="item"><a href="https://www.shoppersstop.com/luxe" id="luxe">LUXE</a></li>
+        <li class="item"><a href="https://www.shoppersstop.com/promotions">BARGAINS</a></li>
+        <li class="item"><a href="https://stylehub.shoppersstop.com/">STYLE</a></li>
+      </ul>
+    </div>
+    
+    
+    
+        <div class="chat-container">
+            <div class="chat-box" id="chatBox">
+              <div class="bot-message">Hey there👋I am Fashion Bot! How can I help you today?</div>
+            </div>
+           
+        </div>
+
+        <div class="user-input">
+          <input type="text" id="userInput" placeholder="Type your message..." class="submit_on_enter">
+          <a href="#" onclick="window.location.reload()" class="uil uil-redo ref"></a>
+          <button onclick="sendMessage()">Send</button>
+        </div>
+    
+  </div>  
+      
+  
+
+      <script src="logic.js">
+      </script>
+</body>
+</html>
